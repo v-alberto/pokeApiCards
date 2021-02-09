@@ -3,7 +3,7 @@ const poke_container = document.getElementById('poke_container')
 const poke_container2 = document.getElementById('poke_container2')
 const h1 = document.getElementById('h1')
 const API = 'https://pokeapi.co/api/v2/pokemon/'
-const numPokemons = 30
+const numPokemons = 151
 const colors =  {
   fire: '#ff9b9b',
 	grass: '#9dffa3',
