@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right,#F6C8DD, #D5ADBF);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Lato';
+}
+
+h1 {
+  letter-spacing: 5px;
+  padding: 1em;
+}
+
+.poke-container {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 50px;
+  
+}
+
+
+
+.pokemonEl {
+  text-transform: capitalize;
+  
+}
+
+
+
+
+.pokemonCard{
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.24);
+  background-color: #F9F9F9;
+  text-align: center;  
+  padding: 30px;
+  transition: all .3s ease;
+}
+
+.pokemonCard:hover {
+  box-shadow: 0px 0px 8px 7px rgba(0,0,0,0.24);
+  transform: scale(1.10);
+  transition: all .3s ease;
+}
+
+.pokemonImg{
+  margin-top: -60px;
+  width: 150px;
+  height: 150px;
+}
+
+.infoPokemonLine{
+  width: 80px;
+  height: 5px;
+  background-color: #67e7bf;
+  margin: auto;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.infoPokemonStats{
+  font-size: 10px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  margin: auto;
+  
+}
+
+.btnTransfer{
+ 
+  background: linear-gradient(to right, #9EDA93, #22CBA8);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: .8em;
+  padding: 10px;
+  width: 80%;
+  margin-top: 2em;
+  outline: none !important;
+}
+
+.btnTransfer:hover{
+  background: linear-gradient(to right, #91c587, #23b99b);
+  color: black;
+
+}
+
+
+.visibility {
+  display: none;
+}
+
+span {
+  display: block;
+}
+
+
+
+.poke-container2{
+  display: none;
+  align-items: center;
+  /* justify-content: center; */
+  height: 100vh;
+}
+.card2 {
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.24);
+  background-color: #F9F9F9;
+  
+
+}
+
+.idTypes{
+  
+  display: flex;
+  justify-content: space-between;
+  background-color: #dddddd;
+  padding: 1em;
+  border-radius: 10px 10px 0 0;
+}
+
+.body2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.5em;
+
+}
+
+
+.img2 {
+  width: 200px;
+  height: 200px;
+}
+
+.statics {
+  margin: 1em;
+}
+
+.title {
+  text-transform: capitalize;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.bar {
+  width: 500px;
+}
+
+.description {
+  margin: auto;
+}
+
+.btnBack {
+  z-index: 10;
+  position: absolute;
+  top: 18%;
+  right: calc(50% - 35px);
+}
+.getBack {
+  transition: all .3s ease;
+  font-weight: 600;
+
+}
+
+.getBack:hover {
+  transform: scale(1.5);
+  transition: all .3s ease;
+
+}
